@@ -15,7 +15,7 @@ export default function Footer(){
                     <div className="flex mt-4 -mx-2">
                         <a href="#" className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400" aria-label="Linkden">
                             <svg className="w-4 h-4 fill-current" viewBox="0 0 512 512">
-                                <path d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z"/>
+                            <path d="M12,2.04C6.5,2.04,2,6.53,2,12.06C2,17.06,5.66,21.21,10.44,21.96V14.96H7.9V12.06H10.44V9.85C10.44,7.34,11.93,5.96,14.22,5.96C15.31,5.96,16.45,6.15,16.45,6.15V8.62H15.19C13.95,8.62,13.56,9.39,13.56,10.18V12.06H16.34L15.89,14.96H13.56V21.96A10,10,0,0,0,22,12.06C22,6.53,17.5,2.04,12,2.04Z"/>
                             </svg>
                         </a>
 
@@ -37,28 +37,43 @@ export default function Footer(){
             <div className="mt-6 lg:mt-0 lg:flex-1">
                 <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                     <div>
-                        <h3 className="text-gray-700 uppercase dark:text-white">About</h3>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Company</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">community</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</a>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Personas</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Quienes somos</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Trabajos</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Membresias</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Pasantias</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Makers</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Comunidad</a>
                     </div>
 
                     <div>
-                        <h3 className="text-gray-700 uppercase dark:text-white">Blog</h3>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tec</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Music</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Videos</a>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Proyectos</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mobiliario Urbano</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Packaging</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Trofeos</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Señaletica</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Letreros</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">y más...</a>
                     </div>
 
                     <div>
-                        <h3 className="text-gray-700 uppercase dark:text-white">Products</h3>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mega cloud</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Aperion UI</a>
-                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Meraki UI</a>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Labs</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Hacks</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Test & Reviews</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Microblogs</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tecnicas</a>
                     </div>
 
                     <div>
-                        <h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Factory</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Servicios</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Consultoria</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Casos de exito</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tienda</a>
+                    </div>
+
+                    <div>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Contacto</h3>
                         <a href="tel:+51967606790" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">(+51) 967 606 790</a>
                         <a href="mailto:coordinacion@limamakers.com" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">coordinacion@limamakers.com</a>
                     </div>
@@ -69,7 +84,7 @@ export default function Footer(){
         <hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700"/>
 
         <div>
-            <p className="text-center text-gray-800 dark:text-white">© LIMA Makers 2022 - All rights reserved</p>
+            <p className="text-center text-gray-800 dark:text-white">© LIMA Makers 2022 - Todos los derechos reservados</p>
         </div>
     </div>
 </footer>
