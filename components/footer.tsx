@@ -59,8 +59,8 @@ export default function Footer(){
 
                     <div>
                         <h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
-                        <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+1 526 654 8965</span>
-                        <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">example@email.com</span>
+                        <a href="tel:+51967606790" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">(+51) 967 606 790</a>
+                        <a href="mailto:coordinacion@limamakers.com" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">coordinacion@limamakers.com</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default function Footer(){
         <hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700"/>
 
         <div>
-            <p className="text-center text-gray-800 dark:text-white">© LIMA Makers 2021 - All rights reserved</p>
+            <p className="text-center text-gray-800 dark:text-white">© LIMA Makers 2022 - All rights reserved</p>
         </div>
     </div>
 </footer>

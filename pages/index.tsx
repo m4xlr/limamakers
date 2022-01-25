@@ -5,6 +5,11 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 
+const heroStyle = {
+  color: 'blue',
+  backgroundImage: 'url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")',
+};
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -17,43 +22,14 @@ const Home: NextPage = () => {
       </Head>
       <Navbar></Navbar>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className="w-full bg-center bg-cover h-[32rem]" 
+        style={heroStyle}>
+            <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
+                <div className="text-center">
+                    <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">Build Your new <span className="text-blue-400 underline">Saas</span></h1>
+                    <button className="w-full px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Start project</button>
+                </div>
+            </div>
         </div>
       </main>
       <Footer></Footer>
