@@ -1,14 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-
-const heroStyle = {
-  color: 'blue',
-  backgroundImage: 'url("/b1.jpg")',
-};
 
 /**
  * TODO definir slider de fotos
@@ -25,17 +16,9 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="utf-8"/>
       </Head>
-      <main className={styles.main}>
-      <div className="w-full h-full bg-center bg-cover h-[32rem]" 
-        style={heroStyle}>
-            <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
-                <div className="text-center">
-                    <h1 className="text-2xl font-semibold text-white lg:text-3xl">Estamos fabricando algo nuevo para ti <span className="text-blue-400 underline">Saas</span></h1>
-                    <button className="w-full px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Start project</button>
-                </div>
-            </div>
-        </div>
-      </main>
+      <div>
+        
+      </div>
     </div>
   )
 }
