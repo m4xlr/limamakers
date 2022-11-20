@@ -22,14 +22,11 @@ export default function Navbar(){
         
         <div className="w-full md:flex md:items-center md:justify-between">
             <div className="flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0">
-                <Link href="/">
-                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-red-600 hover:text-gray-50 md:mx-2">Home</a>
+                <Link href="/" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-red-600 hover:text-gray-50 md:mx-2">Home
                 </Link>
-                <Link href="/people">
-                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-red-600 hover:text-gray-50 md:mx-2">People</a>
+                <Link href="/people" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-red-600 hover:text-gray-50 md:mx-2">People
                 </Link>
-                <Link href="/projects">
-                <a className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-red-600 hover:text-gray-50 md:mx-2">Projects</a>
+                <Link href="/projects" className="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-red-600 hover:text-gray-50 md:mx-2">Projects
                 </Link>
             </div>
             
